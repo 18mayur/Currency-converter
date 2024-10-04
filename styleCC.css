@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffc75f;
+}
+.msg {
+  margin-bottom: 12px;
+}
+.amount {
+  margin: 12px 0;
+}
+.amount p {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form input {
+  height: 2rem;
+  /* border: none; */
+  background-color: #fbeaff;
+  border: 2px solid lightgrey;
+  outline: none;
+  border-radius: 12px;
+  padding: 0 0.7rem;
+  margin-top: 5px;
+  width: 100%;
+}
+.flex-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  /* width: 20%; */
+  padding: 2rem;
+  background-color: #fbeaff;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+button {
+  height: 2rem;
+  font-size: 1.1rem;
+  background-color: #d65db1;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}
+select,
+option {
+  color: #000;
+}
